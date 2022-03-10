@@ -1,5 +1,7 @@
 ---
 title: Drawing
+collection: gallery
+order: 2
 date: "2019-05-08"
 thumbnail: ./fa_124_2020_2.jpg
 description: In our Drawing courses, students learn basic concepts, theories, media and techniques of drawing explored through still life, landscape, the figure, portraiture, and perspective studies. Emphasis is placed on development of observational drawing skills, composition, and an understanding of drawing as a primary form of visual communication and personal expression.

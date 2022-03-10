@@ -87,7 +87,7 @@ const ProgramsPage = ({ data }, location) => {
               className="button primary fit"
               href="https://www.northampton.edu/communication-design.htm"
             >
-              <strong>Learn More About The Communication Program</strong>
+              <strong>Learn More About The CD Program</strong>
             </a>
           </p>
         </div>

@@ -379,6 +379,202 @@ body {
   }
 }
 
+/* Faculty Feed
+/* ---------------------------------------------------------- */
+
+.faculty-feed {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 6vw 0;
+}
+
+.faculty-content {
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 6vw 0;
+}
+
+.faculty-content-body {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 6vw 0;
+}
+.faculty-content-body {
+  font-size: 1.9rem;
+  line-height: 1.65em;
+}
+@media (max-width: 500px) {
+  .faculty-content-body {
+    font-size: 1.7rem;
+  }
+}
+
+.faculty-content-body h1,
+.faculty-content-body h2,
+.faculty-content-body h3,
+.faculty-content-body h4,
+.faculty-content-body h5,
+.faculty-content-body h6 {
+  color: var(--color-base);
+}
+
+.faculty-content-body li {
+  word-break: break-word;
+}
+
+.faculty-content-body li p {
+  margin: 0;
+}
+
+.faculty-content-body iframe {
+  margin: 0 auto !important;
+}
+
+.faculty-content-body blockquote {
+  margin: 0 0 1.5em;
+  padding: 0 1.5em;
+  border-left: #3eb0ef 3px solid;
+}
+
+.faculty-content-body blockquote p {
+  margin: 0 0 1em 0;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-style: italic;
+}
+
+.faculty-content-body blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.faculty-content-body code {
+  padding: 0 5px 2px;
+  font-size: 0.8em;
+  line-height: 1em;
+  font-weight: 400 !important;
+  background: var(--color-bg);
+  border-radius: 3px;
+}
+
+.faculty-content-body p code {
+  word-break: break-all;
+}
+
+.faculty-content-body pre {
+  overflow-x: auto;
+  margin: 1.5em 0 3em;
+  padding: 20px;
+  max-width: 100%;
+  border: color(var(--color-base) l(-10%)) 1px solid;
+  color: var(--color-bg);
+  font-size: 1.4rem;
+  line-height: 1.5em;
+  background: color(var(--color-base) l(-3%));
+  border-radius: 5px;
+}
+
+.faculty-content-body pre code {
+  padding: 0;
+  font-size: inherit;
+  line-height: inherit;
+  background: transparent;
+}
+
+.faculty-content-body pre code :not(span) {
+  color: inherit;
+}
+
+.faculty-content-body .fluid-width-video-wrapper {
+  margin: 1.5em 0 3em;
+}
+
+.faculty-content-body hr {
+  margin: 4vw 0;
+}
+
+.faculty-content-body hr:after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  display: block;
+  margin-left: -10px;
+  width: 1px;
+  height: 30px;
+  background: color(var(--color-border) l(+10%));
+  box-shadow: #fff 0 0 0 5px;
+  transform: rotate(45deg);
+}
+
+.faculty-content-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faculty-content-title {
+  margin: 0 0 3vw;
+  color: var(--color-base);
+  text-align: center;
+}
+.faculty-content-excerpt {
+  max-width: 720px;
+  padding: 6vw 0;
+  margin: -2vw auto 3vw auto;
+  font-size: 2.2rem;
+  line-height: 1.6em;
+  color: var(--color-base);
+  text-align: center;
+  opacity: 0.5;
+}
+.faculty-images {
+  display: flex;
+  align-items: ;
+  flex-wrap: wrap;
+}
+.faculty-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  height: auto;
+  overflow: hidden;
+  counter-increment: posts;
+  text-align: center;
+  margin: 0px 0 20px 0;
+}
+.faculty-card .profile-image {
+  width: 260px;
+  height: 260px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.faculty-card .profile-image img {
+  max-width: 100%;
+  height: 260px;
+}
+.faculty-card a,
+.faculty-card a:link,
+.faculty-card a:visited,
+.faculty-card a:active {
+  color: var(--color-base);
+}
+.faculty-card a:hover {
+  color: var(--color-base);
+  opacity: 0.85;
+  text-decoration: none;
+}
+.faculty-card .name {
+  font-size: 2.5rem;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
 /* Post Feed
 /* ---------------------------------------------------------- */
 

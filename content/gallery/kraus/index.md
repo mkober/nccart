@@ -1,5 +1,7 @@
 ---
 title: Kraus Drawing Competition
+collection: gallery
+order: 5
 date: "2019-05-08"
 thumbnail: ./kraus_kuehner_2006.jpg
 description: The Annual drawing competition is open to freshman art students who submit original drawings to be judged by a panel of NCC art program faculty.

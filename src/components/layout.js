@@ -32,11 +32,6 @@ const Layout = props => {
               <li className="nav-home" role="menuitem">
                 <Link to={`/`}>Student Galleries</Link>
               </li>
-              {/*
-              <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
-              </li>
-               */}
             </ul>
           </nav>
           <div className="site-head-center">
@@ -55,15 +50,12 @@ const Layout = props => {
         </div>
       </main>
       <footer className="site-foot">
-        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built with{" "}
-        <a
-          href="https://gatsbyjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Gatsby
-        </a>
+        &mdash; &copy;{new Date().getFullYear()} <Link to={`/`}>{title}</Link>{" "}
+        &mdash;
+        <br />
+        <Link to="https://www.northampton.edu/">
+          Northampton Community College
+        </Link>
       </footer>
     </div>
   )

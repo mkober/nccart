@@ -1,6 +1,7 @@
 ---
-
 title: Digital Design
+collection: gallery
+order: 1
 date: "2019-05-08"
 thumbnail: ./cd_281_105702.png
 description: Digital Design & Typography assignments are selected with the student's portfolio in mind and provide a variety of design challenges that will enhance students' competitive power for industry needs. Special emphasis will be placed on typographic detail, vocabulary, the design process, presentation, assemblage, and problem solving in a "real world" context.
@@ -27,3 +28,4 @@ images: [
 "cd_281_vvedon.png",
 "cd_281_zigmund.jpg",
 ]
+---

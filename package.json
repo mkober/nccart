@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "firebase": "^9.6.8",
+    "firebase-tools": "^10.2.2",
     "gatsby": "^2.4.2",
     "gatsby-image": "^2.0.41",
     "gatsby-plugin-feed": "^2.2.0",

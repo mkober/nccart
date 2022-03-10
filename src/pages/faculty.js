@@ -3,40 +3,39 @@ import { graphql, StaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import PostCard from "../components/postCard"
+import FacultyCard from "../components/facultyCard"
 
 // import "../utils/global.scss"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
-//TODO: switch to staticQuery, get rid of comments, remove unnecessary components, export as draft template
-const BlogIndex = ({ data }, location) => {
+
+const FacultyIndex = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
-  const posts = data.allMarkdownRemark.edges
-  let postCounter = 0
+  const faculty = data.allMarkdownRemark.edges
+  let facultyCounter = 0
 
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="Student Galleries"
-        keywords={[`art`, `gallery`, `student`, `college`]}
+        title="Faculty"
+        keywords={[`art`, `faculty`, `professors`, `college`]}
       />
-      {/* <Bio /> */}
-      {data.site.siteMetadata.description && (
-        <header className="page-head">
-          <h2 className="page-head-title">
-            {data.site.siteMetadata.description}
-          </h2>
-        </header>
-      )}
-      <div className="post-feed">
-        {posts.map(({ node }) => {
-          postCounter++
+      <header className="page-head">
+        <h2 className="page-head-title">
+          Our faculty are both experienced educators and professionals with
+          ongoing experience in the studio and working with other creative
+          professionals in the Industry
+        </h2>
+      </header>
+
+      <div className="faculty-feed">
+        {faculty.map(({ node }) => {
+          facultyCounter++
           return (
-            <PostCard
+            <FacultyCard
               key={node.fields.slug}
-              count={postCounter}
+              count={facultyCounter}
               node={node}
-              postClass={`post`}
             />
           )
         })}
@@ -45,7 +44,7 @@ const BlogIndex = ({ data }, location) => {
   )
 }
 
-const indexQuery = graphql`
+const facultyQuery = graphql`
   query {
     site {
       siteMetadata {
@@ -53,7 +52,10 @@ const indexQuery = graphql`
         description
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___order], order: ASC }) {
+    allMarkdownRemark(
+      filter: { frontmatter: { collection: { eq: "faculty" } } }
+      sort: { fields: [frontmatter___order], order: ASC }
+    ) {
       edges {
         node {
           excerpt
@@ -62,8 +64,9 @@ const indexQuery = graphql`
           }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
+            name
             title
-            description
+            role
             thumbnail {
               childImageSharp {
                 fluid(maxWidth: 1360) {
@@ -80,9 +83,9 @@ const indexQuery = graphql`
 
 export default props => (
   <StaticQuery
-    query={indexQuery}
+    query={facultyQuery}
     render={data => (
-      <BlogIndex location={props.location} props data={data} {...props} />
+      <FacultyIndex location={props.location} props data={data} {...props} />
     )}
   />
 )

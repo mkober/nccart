@@ -1,5 +1,7 @@
 ---
 title: Interactive Design
+collection: gallery
+order: 4
 date: "2019-05-08"
 thumbnail: ./cd_236_0124.jpg
 description: Students learn the fundamentals of interactive design within a game design context, including how to develop strong conceptual skills required for creating interactive applications. Interactive Design and programming is intended for both creative and technical oriented individuals.
