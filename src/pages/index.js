@@ -53,7 +53,10 @@ const indexQuery = graphql`
         description
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___order], order: ASC }) {
+    allMarkdownRemark(
+      filter: { frontmatter: { collection: { eq: "gallery" } } }
+      sort: { fields: [frontmatter___order], order: ASC }
+    ) {
       edges {
         node {
           excerpt

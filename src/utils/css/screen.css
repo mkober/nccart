@@ -534,7 +534,7 @@ body {
 }
 .faculty-images {
   display: flex;
-  align-items: ;
+  align-items: center;
   flex-wrap: wrap;
 }
 .faculty-card {
@@ -556,7 +556,9 @@ body {
 }
 .faculty-card .profile-image img {
   max-width: 100%;
-  height: 260px;
+  max-height: 100%;
+  height: 300px;
+  width: 300px;
 }
 .faculty-card a,
 .faculty-card a:link,
