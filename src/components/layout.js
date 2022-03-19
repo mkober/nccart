@@ -40,6 +40,7 @@ const Layout = props => {
             </Link>
           </div>
           <div className="site-head-right">
+            <Link to={`/faculty`}>Faculty</Link>
             <Link to={`/schedule`}>Studio & Lab Schedule</Link>
           </div>
         </div>
