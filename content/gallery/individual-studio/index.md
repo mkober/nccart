@@ -1,8 +1,9 @@
 ---
 title: Individual Studio
+slug: /gallery/individual-studio
 collection: gallery
 order: 3
-date: "2019-05-08"
+date: 2019-05-08
 thumbnail: ./fa_260_0623.jpg
 description: In this capstone course students have an intensive studio experience for personal development and growth, culminating in a final, semester-end exhibition. The critique, a detailed analysis of artwork, will be the core process where aesthetic awareness and creative issues unfold.
 images: [

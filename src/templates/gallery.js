@@ -83,7 +83,7 @@ export const pageQuery = graphql`
         author
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
       html
@@ -91,6 +91,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        slug
         images {
           publicURL
           childImageSharp {

@@ -1,10 +1,11 @@
 ---
 title: Painting
+slug: /gallery/paiting
 collection: gallery
 order: 7
-date: "2019-05-08"
+date: 2019-05-08
 thumbnail: ./fa_158_paintingofprince.jpg
-description: The paiting courses covers the basic concepts, theories, and techniques of painting, through the exploration of still life, portraiture, photographs, and mixed media experimentation. Emphasis is on the development of observational painting skills, composition, color mixing, and an understanding of painting as a primary form of visual communication and personal expression.  
+description: The paiting courses covers the basic concepts, theories, and techniques of painting, through the exploration of still life, portraiture, photographs, and mixed media experimentation. Emphasis is on the development of observational painting skills, composition, color mixing, and an understanding of painting as a primary form of visual communication and personal expression.
 images: [
 "fa_158_0352.jpg",
 "fa_158_0447.jpg",

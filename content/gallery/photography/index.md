@@ -1,8 +1,9 @@
 ---
 title: Photography
+slug: /gallery/photography
 collection: gallery
 order: 8
-date: "2019-05-08"
+date: 2019-05-08
 thumbnail: ./cd_282_coreygeorge.jpg
 description: The Black and White Photography course focuses on camera work, black and white film and print processing; basic techniques of exposure, lighting and laboratory work; emphasis on technical/creative/aesthetic aspects of photography. The Digital Photography course presents an overview of best practices of digital photo capture (camera work), file organization, image manipulation, and storage and output devices. 
 images: [
