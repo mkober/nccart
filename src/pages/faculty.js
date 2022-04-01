@@ -47,7 +47,7 @@ const FacultyIndex = ({ data }, location) => {
       </div>
 
       <div class="faculty-content-header">
-        <h2>Adjuct Faculty</h2>
+        <h2>Adjunct Faculty</h2>
       </div>
       <div className="faculty-feed">
         {faculty.map(({ node }) => {
