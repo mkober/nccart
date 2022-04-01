@@ -5,6 +5,7 @@ collection: faculty
 role: fulltime
 order: 3
 date: "2019-05-08"
+slug: "/faculty/mark-koberlein"
 thumbnail: ./faculty_koberlein.jpg
 ---
 

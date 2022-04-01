@@ -5,6 +5,7 @@ collection: faculty
 role: adjunct
 order: 6
 date: "2019-05-08"
+slug: "/faculty/mick-chapuk"
 thumbnail: ./faculty_mick.jpg
 ---
 

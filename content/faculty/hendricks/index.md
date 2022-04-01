@@ -5,6 +5,7 @@ collection: faculty
 role: adjunct
 order: 8
 date: "2019-05-08"
+slug: "/faculty/gayle-hendricks"
 thumbnail: ./faculty_gaylehendricks.jpg
 ---
 

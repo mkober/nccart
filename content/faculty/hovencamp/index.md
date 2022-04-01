@@ -5,6 +5,7 @@ collection: faculty
 role: adjunct
 order: 21
 date: "2019-05-08"
+slug: "/faculty/katie-hovencamp"
 thumbnail: ./faculty_hovencamp.jpg
 ---
 

@@ -1,11 +1,13 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
-exports.createPages = ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
   const gallery = path.resolve(`./src/templates/gallery.js`)
-  return graphql(
+  const faculty = path.resolve(`./src/templates/faculty.js`)
+
+  const galleryResults = await graphql(
     `
       {
         allMarkdownRemark(
@@ -27,34 +29,32 @@ exports.createPages = ({ graphql, actions }) => {
         }
       }
     `
-  ).then(result => {
-    if (result.errors) {
-      throw result.errors
-    }
+  )
 
-    // Create blog posts pages.
-    const posts = result.data.allMarkdownRemark.edges
+  if (galleryResults.errors) {
+    reporter.panicOnBuild("Error while running Gallery GraphQL query")
+  }
 
-    posts.forEach((post, index) => {
-      const previous = index === posts.length - 1 ? null : posts[index + 1].node
-      const next = index === 0 ? null : posts[index - 1].node
+  const galleryPosts = galleryResults.data.allMarkdownRemark.edges
 
-      createPage({
-        path: post.node.frontmatter.slug,
-        component: gallery,
-        context: {
-          slug: post.node.frontmatter.slug,
-          previous,
-          next,
-        },
-      })
+  galleryPosts.forEach((post, index) => {
+    const previous =
+      index === galleryPosts.length - 1 ? null : galleryPosts[index + 1].node
+    const next = index === 0 ? null : galleryPosts[index - 1].node
+
+    createPage({
+      path: post.node.frontmatter.slug,
+      pathPrefix: "/",
+      component: gallery,
+      context: {
+        slug: post.node.frontmatter.slug,
+        previous,
+        next,
+      },
     })
-
-    return null
   })
 
-  const faculty = path.resolve(`./src/templates/faculty.js`)
-  return graphql(
+  const facultyResults = await graphql(
     `
       {
         allMarkdownRemark(
@@ -69,36 +69,36 @@ exports.createPages = ({ graphql, actions }) => {
               }
               frontmatter {
                 title
+                slug
               }
             }
           }
         }
       }
     `
-  ).then(result => {
-    if (result.errors) {
-      throw result.errors
-    }
+  )
 
-    // Create blog posts pages.
-    const posts = result.data.allMarkdownRemark.edges
+  if (facultyResults.errors) {
+    reporter.panicOnBuild("Error while running Faculty GraphQL query")
+  }
 
-    posts.forEach((post, index) => {
-      const previous = index === posts.length - 1 ? null : posts[index + 1].node
-      const next = index === 0 ? null : posts[index - 1].node
+  const facultyPosts = facultyResults.data.allMarkdownRemark.edges
 
-      createPage({
-        path: post.node.fields.slug,
-        component: faculty,
-        context: {
-          slug: post.node.fields.slug,
-          previous,
-          next,
-        },
-      })
+  facultyPosts.forEach((post, index) => {
+    const previous =
+      index === facultyPosts.length - 1 ? null : facultyPosts[index + 1].node
+    const next = index === 0 ? null : facultyPosts[index - 1].node
+
+    createPage({
+      path: post.node.frontmatter.slug,
+      pathPrefix: "/",
+      component: faculty,
+      context: {
+        slug: post.node.frontmatter.slug,
+        previous,
+        next,
+      },
     })
-
-    return null
   })
 }
 

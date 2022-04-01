@@ -5,6 +5,7 @@ collection: faculty
 role: adjunct
 order: 19
 date: "2019-05-08"
+slug: "/faculty/layne-lyons"
 thumbnail: ./faculty_lyons.png
 ---
 

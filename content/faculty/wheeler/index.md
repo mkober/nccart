@@ -5,6 +5,7 @@ collection: faculty
 role: adjunct
 order: 20
 date: "2019-05-08"
+slug: "/faculty/liz-wheeler"
 thumbnail: ./faculty_lizwheeler.jpg
 ---
 

@@ -5,6 +5,7 @@ collection: faculty
 role: adjunct
 order: 14
 date: "2019-05-08"
+slug: "/faculty/lydia-chiappini"
 thumbnail: ./faculty_chiapinni.jpg
 ---
 

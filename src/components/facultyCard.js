@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export default props => (
   <article className="faculty-card">
-    <Link to={props.node.fields.slug} className="faculty-card-link">
+    <Link to={props.node.frontmatter.slug} className="faculty-card-link">
       <div className="profile-image">
         <img src={props.node.frontmatter.thumbnail.childImageSharp.fluid.src} />
       </div>

@@ -5,6 +5,7 @@ collection: faculty
 role: adjunct
 order: 22
 date: "2019-05-08"
+slug: "/faculty/marci-fiorillo"
 thumbnail: ./faculty_fiorillo.jpg
 ---
 

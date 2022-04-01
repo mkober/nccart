@@ -5,6 +5,7 @@ collection: faculty
 role: adjunct
 order: 9
 date: "2019-05-08"
+slug: "/faculty/michael-stek"
 thumbnail: ./faculty_stek.jpg
 ---
 

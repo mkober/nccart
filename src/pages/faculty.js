@@ -28,16 +28,39 @@ const FacultyIndex = ({ data }, location) => {
         </h2>
       </header>
 
+      <div class="faculty-content-header">
+        <h2>Full-Time Faculty</h2>
+      </div>
       <div className="faculty-feed">
         {faculty.map(({ node }) => {
-          facultyCounter++
-          return (
-            <FacultyCard
-              key={node.fields.slug}
-              count={facultyCounter}
-              node={node}
-            />
-          )
+          if (node.frontmatter.role == "fulltime") {
+            facultyCounter++
+            return (
+              <FacultyCard
+                key={node.fields.slug}
+                count={facultyCounter}
+                node={node}
+              />
+            )
+          }
+        })}
+      </div>
+
+      <div class="faculty-content-header">
+        <h2>Adjuct Faculty</h2>
+      </div>
+      <div className="faculty-feed">
+        {faculty.map(({ node }) => {
+          if (node.frontmatter.role == "adjunct") {
+            facultyCounter++
+            return (
+              <FacultyCard
+                key={node.fields.slug}
+                count={facultyCounter}
+                node={node}
+              />
+            )
+          }
         })}
       </div>
     </Layout>
@@ -67,6 +90,7 @@ const facultyQuery = graphql`
             name
             title
             role
+            slug
             thumbnail {
               childImageSharp {
                 fluid(maxWidth: 1360) {

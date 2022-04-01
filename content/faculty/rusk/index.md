@@ -5,6 +5,7 @@ collection: faculty
 role: adjunct
 order: 12
 date: "2019-05-08"
+slug: "/faculty/william-rusk"
 thumbnail: ./faculty_rusk.jpg
 ---
 

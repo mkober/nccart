@@ -5,6 +5,7 @@ collection: faculty
 role: adjunct
 order: 10
 date: "2019-05-08"
+slug: "/faculty/alexandra-snowden"
 thumbnail: ./faculty_snowden.jpg
 ---
 

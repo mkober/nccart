@@ -5,6 +5,7 @@ collection: faculty
 role: adjunct
 order: 11
 date: "2019-05-08"
+slug: "/faculty/douglas-zucco"
 thumbnail: ./faculty_zucco.jpg
 ---
 

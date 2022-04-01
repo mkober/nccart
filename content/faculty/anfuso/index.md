@@ -5,6 +5,7 @@ collection: faculty
 role: adjunct
 order: 13
 date: "2019-05-08"
+slug: "/faculty/traci-anfuso-young"
 thumbnail: ./faculty_anfuso.jpg
 ---
 

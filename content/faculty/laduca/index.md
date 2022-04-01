@@ -5,6 +5,7 @@ collection: faculty
 role: adjunct
 order: 7
 date: "2019-05-08"
+slug: "/faculty/isadore-laduca"
 thumbnail: ./faculty_izzy.jpg
 ---
 

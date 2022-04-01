@@ -694,6 +694,67 @@ body {
   }
 }
 
+/* Faculty Content
+/* ---------------------------------------------------------- */
+
+.faculty-content {
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 6vw 0;
+}
+
+.faculty-content-body {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 6vw 0;
+}
+.faculty-content-body {
+  font-size: 1.9rem;
+  line-height: 1.65em;
+}
+@media (max-width: 500px) {
+  .faculty-content-body {
+    font-size: 1.7rem;
+  }
+}
+
+.faculty-content-body h1,
+.faculty-content-body h2,
+.faculty-content-body h3,
+.faculty-content-body h4,
+.faculty-content-body h5,
+.faculty-content-body h6 {
+  color: var(--color-base);
+}
+.faculty-content-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.faculty-content-footer {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.faculty-content-title {
+  margin: 0 0 3vw;
+  color: var(--color-base);
+  text-align: center;
+}
+.faculty-content-image {
+  width: 70%;
+  min-width: 300px;
+  max-width: 700px;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+@media (max-width: 500px) {
+  .gallery-content-body {
+    font-size: 1.7rem;
+  }
+}
+
 /* Gallery Content
 /* ---------------------------------------------------------- */
 
@@ -839,7 +900,7 @@ body {
 }
 .gallery-images {
   display: flex;
-  align-items: ;
+  align-items: center;
   flex-wrap: wrap;
 }
 .gallery-card {

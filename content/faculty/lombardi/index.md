@@ -5,6 +5,7 @@ collection: faculty
 role: adjunct
 order: 15
 date: "2019-05-08"
+slug: "/faculty/carmelina-lombardi"
 thumbnail: ./faculty_carmelina.jpg
 ---
 

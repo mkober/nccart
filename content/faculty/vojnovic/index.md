@@ -5,6 +5,7 @@ collection: faculty
 role: adjunct
 order: 18
 date: "2019-05-08"
+slug: "/faculty/cindy-vojnovic"
 thumbnail: ./faculty_cindy.jpg
 ---
 

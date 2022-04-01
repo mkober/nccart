@@ -5,6 +5,7 @@ collection: faculty
 role: adjunct
 order: 16
 date: "2019-05-08"
+slug: "/faculty/james-smull"
 thumbnail: ./faculty_jsmull.jpg
 ---
 

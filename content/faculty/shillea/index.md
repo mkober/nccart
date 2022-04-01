@@ -5,6 +5,7 @@ collection: faculty
 role: fulltime
 order: 1
 date: "2019-05-08"
+slug: "/faculty/thomas-shillea"
 thumbnail: ./faculty_shillea.jpg
 ---
 

@@ -5,6 +5,7 @@ collection: faculty
 role: adjunct
 order: 17
 date: "2019-05-08"
+slug: "/faculty/sarah-sterner-hausknecht"
 thumbnail: ./faculty_sarahsterner.jpg
 ---
 
