@@ -1193,6 +1193,11 @@ body {
 
 .page-template .post-content-body h1,
 .page-template .post-content-body h2,
-.page-template .post-content-body h3 {
+.page-template .post-content-body h3,
+.page-template .post-content-body h4 {
+  text-align: center;
+}
+
+.has-text-centered {
   text-align: center;
 }

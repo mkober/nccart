@@ -90,6 +90,33 @@ const ProgramsPage = ({ data }, location) => {
               <strong>Learn More About The CD Program</strong>
             </a>
           </p>
+          <h3>Web Development</h3>
+          <p>
+            In many ways, web developers will engineer most 21st century
+            communications. Web developers provide a number of fundamental
+            skills that enable organizations to communicate and do business on
+            the web.
+          </p>
+          <p>
+            The Web Development and Design programs provide students with the
+            skills to help build the 21st century's digital domain. Students
+            leave the program prepared to apply HTML, XML, Javascript, graphics
+            applications, and other tools to the design, editing, and publishing
+            of documents, images, graphics, sound, and multimedia products on
+            the Web. The programs include instruction in web theory, web page
+            standards and policies, elements of web page design, user
+            interfaces, vector graphic tools, special effects, interactive and
+            multimedia components, search engines, navigation, and emerging web
+            technologies.
+          </p>
+          <p>
+            <a
+              className="button primary fit"
+              href="https://www.northampton.edu/web-development-and-design.htm"
+            >
+              <strong>Learn More About The Web Dev Program</strong>
+            </a>
+          </p>
         </div>
       </article>
     </Layout>
