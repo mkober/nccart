@@ -31,54 +31,64 @@ const SchedulePage = ({ data }, location) => {
             />
           </figure>
           <h2>Fine Art Studios</h2>
-          <h3>Communication Hall Studio 109</h3>
+          <h3>Communications Hall Studio 109</h3>
           <ul>
-            <li>Tuesday: 9:00am-8:00pm</li>
-            <li>Thursday: 3:00pm-8:00pm</li>
-            <li>Friday: 9:00am-2:00pm</li>
-            <li>
-              Saturday: 9:00am-2:00pm (There will be a non-credit class held in
-              109 on Saturdays from 9:15-11:45am starting 11/7 and ending 12/5){" "}
-            </li>
+            <li>Monday: CLOSED</li>
+            <li>Tuesday: CLOSED</li>
+            <li>Wednesday: 9:00am-12:00pm</li>
+            <li>Thursday: CLOSED</li>
+            <li>Friday & Saturday: TBD</li>
           </ul>
-          <h3>Communication Hall Studio 110</h3>
+          <h3>Communications Hall Studio 110</h3>
           <ul>
-            <li>Tuesday: 9:00am-8:00pm</li>
-            <li>Thursday: 3:00pm-8:00pm</li>
-            <li>Friday: 9:00am-2:00pm</li>
-            <li>Saturday: 9:00am-2:00pm</li>
+            <li>Monday: 6:00pm-10:00pm</li>
+            <li>Tuesday: 9:00am-12:00pm, 6:00pm-10:00pm</li>
+            <li>Wednesday: 6:00pm-10:00pm</li>
+            <li>Thursday: 9:00am-12:00pm, 6:00pm-10:00pm</li>
+            <li>Friday & Saturday: TBD</li>
           </ul>
-          <h3>Communication Hall Studio 112</h3>
+          <h3>Communications Hall Studio 112</h3>
           <ul>
-            <li>Tuesday: 9:00am-6:00pm</li>
-            <li>Thursday: 3:00pm-6:00pm</li>
-            <li>Friday: 9:00am-2:00pm</li>
-            <li>Saturday: 9:00am-2:00pm</li>
+            <li>Monday: 9:00am-12:00pm</li>
+            <li>Tuesday: CLOSED</li>
+            <li>Wednesday: 9:00am-12:00pm</li>
+            <li>Thursday: CLOSED</li>
+            <li>Friday & Saturday: TBD</li>
           </ul>
-          <h3>Communication Hall Studio 112</h3>
+          <h3>Communications Hall Studio 121</h3>
           <ul>
-            <li>Tuesday: 9:00am-6:00pm</li>
-            <li>Thursday: 3:00pm-6:00pm</li>
-            <li>Friday: 9:00am-2:00pm</li>
-            <li>Saturday: 9:00am-2:00pm</li>
+            <li>Monday: 9:00am-12:00pm, 6:00pm-10:00pm</li>
+            <li>Tuesday: 9:00am-12:00pm, 2:00pm-6:00pm, 6:00pm-10:00pm</li>
+            <li>Wednesday: 9:00am-12:00pm, 6:00pm-10:00pm</li>
+            <li>Thursday: 9:00am-12:00pm, 2:00pm-6:00pm, 6:00pm-10:00pm</li>
+            <li>Friday & Saturday: TBD</li>
           </ul>
-          <h3>Communication Hall Tool Room 123</h3>
-          <ul>
-            <li>Friday: 9:00am-2:00pm</li>
-            <li>Saturday: 9:00am-2:00pm</li>
-          </ul>
-
           <h2>Computer Labs</h2>
-          <h3>Communication Hall Computer Labs</h3>
-          <h3>108, 108a, 114, & 121</h3>
+          <h3>Communications Hall Computer Lab 108</h3>
           <ul>
-            <li>Monday: 9:00am - 2:00pm</li>
-            <li>Tuesday: 9:00am - 2:00pm</li>
-            <li>Wednesday: 9:00am - 2:00pm</li>
-            <li>Thursday: 3:00pm - 2:00pm</li>
-            <li>Friday: 9:00am - 2:00pm</li>
-            <li>Saturday: 9:00am - 2:00pm</li>
+            <li>Monday: 6:00pm-10:00pm</li>
+            <li>Tuesday: 9:00am-12:00pm, 6:00pm-10:00pm</li>
+            <li>Wednesday: 6:00pm-10:00pm</li>
+            <li>Thursday: 9:00am-12:00pm, 6:00pm-10:00pm</li>
+            <li>Friday & Saturday: TBD</li>
           </ul>
+          <h3>Communications Hall Computer Lab 108a</h3>
+          <ul>
+            <li>Monday: 6:00pm-10:00pm</li>
+            <li>Tuesday: 9:00am-12:00pm</li>
+            <li>Wednesday: 6:00pm-10:00pm</li>
+            <li>Thursday: 9:00am-12:00pm, 6:00pm-10:00pm</li>
+            <li>Friday & Saturday: TBD</li>
+          </ul>
+          <h3>Communications Hall Computer Lab 114</h3>
+          <ul>
+            <li>Monday: 9:00am-12:00pm</li>
+            <li>Tuesday: CLOSED</li>
+            <li>Wednesday: 9:00am-12:00pm</li>
+            <li>Thursday: CLOSED</li>
+            <li>Friday & Saturday: TBD</li>
+          </ul>
+          {/*
           <p>
             <em>
               <strong>
@@ -95,6 +105,7 @@ const SchedulePage = ({ data }, location) => {
               </strong>
             </em>
           </p>
+          */}
         </div>
       </article>
     </Layout>
