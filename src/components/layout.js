@@ -45,6 +45,9 @@ const Layout = props => {
           <nav className="site-head-right">
             <ul className="nav" role="menu">
               <li className="nav-about" role="menuitem">
+                <Link to={`/events`}>Art Shows & Events</Link>
+              </li>
+              <li className="nav-about" role="menuitem">
                 <Link to={`/faculty`}>Faculty</Link>
               </li>
               <li className="nav-home" role="menuitem">
