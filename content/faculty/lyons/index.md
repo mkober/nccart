@@ -1,14 +1,16 @@
 ---
-name: Layne Lyons
+name: Anthony Smith
 title: Instructor
 collection: faculty
 role: adjunct
 order: 19
 date: "2019-05-08"
-slug: "/faculty/layne-lyons"
-thumbnail: ./faculty_lyons.png
+slug: "/faculty/anthony-smith"
+thumbnail: ./faculty_smith.png
 ---
 
-Layne is a graduate of Kutztown University’s Communication Design program. With 20 years experience in all aspects of design, from logos and branding to packaging, web and product development, he brings real world knowledge to the classroom. Layne has been a designer for a Philadelphia firm, an Art Director for an International Craft Company, as well as a full service agency in Scranton, Pa.
+Smith received a B.A. from Amherst College (1999) and an M.F.A from the University of Michigan (2001). He’s showed nationally and received a Pennsylvania Project Stream grant for works exhibited in the Dreadnaught show at ArtsQuest SteelStacks in (2018). He’s been reviewed in The New York Times, The Wall Street Journal, The Boston Globe, and The Detroit Free Press. Smith taught at the University of Michigan, Princeton, and Maryland Institute College of Art and most recently at Muhlenberg College (2014- 2018). He lives in Allentown Pa with a studio at the Banana Factory Art Center in Bethlehem, PA.
 
-Since starting his own studio in 2007, he has built an impressive client list. “Owning my own design firm has been an incredibly rewarding experience. Having worked with local clients including Crayola, the Mint Gastropub, Stefano’s Modern Italian Restaurant, Gravitation Brewing Company, Colony Meadery and Road Design Co., as well as national and international companies, has given me the opportunity to expand my design knowledge from a cultural and psychological perspective and allowed me to build strong client relationships. Many, I now call friends. You can’t hide the passion behind good design.” Along with teaching, his passions include music concerts, playing guitar and writing music, car collecting, furniture building, wood working and interior design.
+<a href="https://www.anthonysmithjr.com">www.anthonysmithjs.com</a>
+<br>
+<a href="mailto:asmith@northampton.edu">asmith@northampton.edu</a>
