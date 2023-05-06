@@ -13,7 +13,7 @@ const FacultyIndex = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
   const faculty = data.allMarkdownRemark.edges
   let facultyCounter = 0
-
+  
   return (
     <Layout title={siteTitle}>
       <SEO
