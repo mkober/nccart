@@ -30,63 +30,81 @@ const SchedulePage = ({ data }, location) => {
               className="kg-image"
             />
           </figure>
+
           <h2>Fine Art Studios</h2>
+
           <h3>Communications Hall Studio 109</h3>
           <ul>
-            <li>Monday: CLOSED</li>
-            <li>Tuesday: CLOSED</li>
-            <li>Wednesday: 9:00am-12:00pm</li>
-            <li>Thursday: CLOSED</li>
-            <li>Friday & Saturday: TBD</li>
+            <li>Monday: NO OPEN HOURS</li>
+            <li>Tuesday: 9:00am-12:00pm, 6:20pm-10:00pm</li>
+            <li>Wednesday: 6:20pm-10:00pm</li>
+            <li>Thursday: 9:00am-12:00pm, 6:20pm-10:00pm</li>
+            <li>Friday & Saturday: 9:00am-9:00pm</li>
           </ul>
+
           <h3>Communications Hall Studio 110</h3>
           <ul>
-            <li>Monday: 6:00pm-10:00pm</li>
+            <li>Monday: 6:20pm-10:00pm</li>
             <li>Tuesday: 9:00am-12:00pm, 6:00pm-10:00pm</li>
-            <li>Wednesday: 6:00pm-10:00pm</li>
+            <li>Wednesday: NO OPEN HOURS</li>
             <li>Thursday: 9:00am-12:00pm, 6:00pm-10:00pm</li>
-            <li>Friday & Saturday: TBD</li>
+            <li>Friday & Saturday: 9:00am-9:00pm</li>
           </ul>
+
           <h3>Communications Hall Studio 112</h3>
           <ul>
-            <li>Monday: 9:00am-12:00pm</li>
-            <li>Tuesday: CLOSED</li>
-            <li>Wednesday: 9:00am-12:00pm</li>
-            <li>Thursday: CLOSED</li>
-            <li>Friday & Saturday: TBD</li>
+            <li>Monday: NO OPEN HOURS</li>
+            <li>Tuesday: 9:00am-12:00pm, 6:00pm-10:00pm</li>
+            <li>Wednesday: 6:20pm-10:00pm</li>
+            <li>Thursday: 9:00am-12:00pm</li>
+            <li>Friday & Saturday: 9:00am-9:00pm</li>
           </ul>
+
           <h3>Communications Hall Studio 121</h3>
           <ul>
-            <li>Monday: 9:00am-12:00pm, 6:00pm-10:00pm</li>
-            <li>Tuesday: 9:00am-12:00pm, 2:00pm-6:00pm, 6:00pm-10:00pm</li>
-            <li>Wednesday: 9:00am-12:00pm, 6:00pm-10:00pm</li>
-            <li>Thursday: 9:00am-12:00pm, 2:00pm-6:00pm, 6:00pm-10:00pm</li>
-            <li>Friday & Saturday: TBD</li>
+            <li>Monday: 9:00am-12:00pm, 3:20pm-10:00pm</li>
+            <li>Tuesday: 9:00am-10:00pm</li>
+            <li>Wednesday: 9:00am-12:00pm, 3:20pm-10:00pm</li>
+            <li>Thursday: 9:00am-10:00pm</li>
+            <li>Friday & Saturday: 9:00am-9:00pm</li>
           </ul>
+
+          <h3>Penn Hall 137</h3>
+          <ul>
+            <li>Monday: 9:00am-12:00pm, 6:00pm-10:00pm</li>
+            <li>Tuesday: 9:00am-12:00pm, 6:00pm-10:00pm</li>
+            <li>Wednesday: 9:00am-12:00pm</li>
+            <li>Thursday: 9:00am-12:00pm, 6:00pm-10:00pm</li>
+            <li>Friday & Saturday: NO OPEN HOURS</li>
+          </ul>
+
           <h2>Computer Labs</h2>
+
           <h3>Communications Hall Computer Lab 108</h3>
           <ul>
             <li>Monday: 6:00pm-10:00pm</li>
-            <li>Tuesday: 9:00am-12:00pm, 6:00pm-10:00pm</li>
+            <li>Tuesday: 6:00pm-10:00pm</li>
             <li>Wednesday: 6:00pm-10:00pm</li>
             <li>Thursday: 9:00am-12:00pm, 6:00pm-10:00pm</li>
-            <li>Friday & Saturday: TBD</li>
+            <li>Friday & Saturday: 9:00am-9:00pm</li>
           </ul>
+
           <h3>Communications Hall Computer Lab 108a</h3>
           <ul>
-            <li>Monday: 6:00pm-10:00pm</li>
-            <li>Tuesday: 9:00am-12:00pm</li>
+            <li>Monday: 2:00pm-10:00pm</li>
+            <li>Tuesday: 2:00pm-6:00pm</li>
             <li>Wednesday: 6:00pm-10:00pm</li>
-            <li>Thursday: 9:00am-12:00pm, 6:00pm-10:00pm</li>
-            <li>Friday & Saturday: TBD</li>
+            <li>Thursday: 2:00pm-10:00pm</li>
+            <li>Friday & Saturday: 9:00am-9:00pm</li>
           </ul>
+
           <h3>Communications Hall Computer Lab 114</h3>
           <ul>
             <li>Monday: 9:00am-12:00pm</li>
-            <li>Tuesday: CLOSED</li>
+            <li>Tuesday: 9:00am-12:00pm</li>
             <li>Wednesday: 9:00am-12:00pm</li>
-            <li>Thursday: CLOSED</li>
-            <li>Friday & Saturday: TBD</li>
+            <li>Thursday: 9:00am-12:00pm</li>
+            <li>Friday & Saturday: 9:00am-9:00pm</li>
           </ul>
           {/*
           <p>
