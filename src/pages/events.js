@@ -23,6 +23,51 @@ const EventsPage = ({ data }, location) => {
           <h2>Art Shows & Events at NCC</h2>
           <figure className="kg-card kg-image-card kg-width-full">
             <Img
+              fluid={data.sashaShyarsAurgessPhotosImage.childImageSharp.fluid}
+              className="kg-image"
+            />
+          </figure>
+          <h3>
+            Untitled Part II and III <br />
+            We All Have To Make Compromises
+          </h3>
+          <h4>
+            Photographs by Sasha Phyars-Burgess
+            <br />
+            October 23rd thru December 15, 2023
+          </h4>
+          <p class="has-text-centered is-bold">
+            Artist Talk <br />
+            November 2nd 5:30pm to 6:30pm
+          </p>
+          <p class="has-text-centered is-bold">
+            Artist Reception <br />
+            November 2nd 6:30pm to 8:00pm
+          </p>
+          <p class="has-text-centered">
+            Communications Hall Gallery
+            <br />
+            3835 Green Pond Road
+            <br />
+            Bethlehem, PA
+            <br />
+          </p>
+          <p class="has-text-centered is-bold">
+            Sasha Phyars-Burgess is a recepient
+            <br /> of a 2023 Guggenheim Fellowship in Photography
+          </p>
+          <figure className="kg-card kg-image-card">
+            <Img
+              fluid={
+                data.sashaShyarsAurgessArtistStatementImage.childImageSharp
+                  .fluid
+              }
+              className=""
+            />
+          </figure>
+
+          <figure className="kg-card kg-image-card kg-width-full">
+            <Img
               fluid={data.diffusedRealityShowImage.childImageSharp.fluid}
               className="kg-image"
             />
@@ -401,6 +446,60 @@ const indexQuery = graphql`
     }
     ladyAndTheDeerImage: file(
       relativePath: { eq: "the-lady-and-the-deer.png" }
+    ) {
+      childImageSharp {
+        fluid(maxWidth: 1360) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    sashaShyarsAurgessArtistStatementImage: file(
+      relativePath: { eq: "sasha-phyars-burgess-artist-statement.png" }
+    ) {
+      childImageSharp {
+        fluid(maxWidth: 1360) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    sashaShyarsAurgess1Image: file(
+      relativePath: { eq: "sasha-phyars-burgess-1.png" }
+    ) {
+      childImageSharp {
+        fluid(maxWidth: 1360) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    sashaShyarsAurgess2Image: file(
+      relativePath: { eq: "sasha-phyars-burgess-2.png" }
+    ) {
+      childImageSharp {
+        fluid(maxWidth: 1360) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    sashaShyarsAurgess3Image: file(
+      relativePath: { eq: "sasha-phyars-burgess-3.png" }
+    ) {
+      childImageSharp {
+        fluid(maxWidth: 1360) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    sashaShyarsAurgess4Image: file(
+      relativePath: { eq: "sasha-phyars-burgess-4.png" }
+    ) {
+      childImageSharp {
+        fluid(maxWidth: 1360) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    sashaShyarsAurgessPhotosImage: file(
+      relativePath: { eq: "sasha-phyars-burgess-photos.png" }
     ) {
       childImageSharp {
         fluid(maxWidth: 1360) {
